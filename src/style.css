@@ -1,1 +1,5 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+body #number {
+  font-size: 120px;
+}
