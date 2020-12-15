@@ -3,3 +3,10 @@
 body #number {
   font-size: 120px;
 }
+.suit {
+  font-size: 70px;
+}
+
+.red {
+  color: #ff0000;
+}
