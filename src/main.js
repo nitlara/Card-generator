@@ -57,17 +57,12 @@ window.onload = function() {
   let suit = Math.floor(Math.random() * suits.length);
   let number = Math.floor(Math.random() * numbers.length);
 
-  //creamos una variable newSuit para almacenar el elemento de html que está indicado como id=suit.
-  //mandamos a html el valor de suits[posición suit que es el valor aleatorio de los 4 suits que hemos hecho]
-
   var newSuit = document.getElementById("suit");
+  newSuit.classList.add(suits[suit].color);
   newSuit.innerHTML = suits[suit].sign;
 
-  //AÑADIR COLOR EN CLASS
-  //var newSuit = document.getElementById("suit");
-  //newSuit.innerHTML = suits[suit].color;
-
   var newSuit2 = document.getElementById("suit2");
+  newSuit2.classList.add(suits[suit].color);
   newSuit2.innerHTML = suits[suit].sign;
 
   var newcard = document.getElementById("number");
