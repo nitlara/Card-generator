@@ -1,12 +1,29 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
 
 body #number {
-  font-size: 120px;
+  font-size: 165px;
+  font-family: "Noto Serif JP", serif;
+}
+.card {
+  margin-top: 30px;
+  height: 500px;
+  width: 320px;
 }
 .suit {
-  font-size: 70px;
+  font-size: 110px;
 }
 
+.suit1 {
+  height: 4rem;
+}
+.suit2 {
+  height: 4rem;
+}
 .red {
   color: #ff0000;
+}
+
+.elementoscarta {
+  height: 550px;
+  width: 220px;
 }
