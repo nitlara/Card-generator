@@ -1,29 +1,39 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
 
-body #number {
-  font-size: 165px;
-  font-family: "Noto Serif JP", serif;
+.container {
+  margin-top: 50px;
 }
-.card {
-  margin-top: 30px;
-  height: 500px;
-  width: 320px;
+.pokercard {
+  height: 400px;
+  width: 270px;
+  line-height: 1;
+}
+.pokercard .row {
+  height: 100%;
+  width: 100%;
 }
 .suit {
-  font-size: 110px;
+  font-size: 95px;
 }
-
 .suit1 {
-  height: 4rem;
+  height: 95px;
+  width: 40px;
+  margin-left: 5px;
+  margin-top: -10px;
+}
+.number1 {
+  height: 135px;
+}
+body #number {
+  font-size: 100px;
+  font-family: "Noto Serif JP", serif;
+  padding-right: 0px;
 }
 .suit2 {
-  height: 4rem;
+  height: 95px;
+  /* width: 40px;*/
+  margin-right: -30px;
 }
 .red {
   color: #ff0000;
-}
-
-.elementoscarta {
-  height: 550px;
-  width: 220px;
 }
